@@ -1,21 +1,36 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
       
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
 
        
-        <link rel="stylesheet" href="./static/styles.css">
+        <!-- <link rel="stylesheet" href="./static/styles.css"> -->
 
         <title>Enter the Domain</title>
     </head>
     <body>
-        <h1>{{domain}}</h1>
         <div class="container">
             <form method="post"   action="/" class="search" id="search-bar">
+                <div class="options">
+                    <label><input type="checkbox" name="options" value="--crawl"> Crawl</label>
+                    <label><input type="checkbox" name="options" value="--basic"> Basic</label>
+                    <label><input type="checkbox" name="options" value="--headers"> Headers</label>
+                    <label><input type="checkbox" name="options" value="--sslinfo"> SSL Info</label>
+                    <label><input type="checkbox" name="options" value="--whois"> Whois</label>
+                    <label><input type="checkbox" name="options" value="--dns"> DNS</label>
+                    <label><input type="checkbox" name="options" value="--sub"> Subdomains</label>
+                    <label><input type="checkbox" name="options" value="--dir"> Directory</label>
+                    <label><input type="checkbox" name="options" value="--wayback"> Wayback</label>
+                    <label><input type="checkbox" name="options" value="--ps"> Passive Scan</label>
+                    <label><input type="checkbox" name="options" value="--full"> Full</label>
+                    <h1>Project type</h1>
+                    <label><input type="radio" name="scripts" value="hydrarecon"> HydraRecon</label>
+                    <label><input type="radio" name="scripts" value="finalrecon"> FinalRecon</label>
+                </div>
                 <input type="search" placeholder="Enter the domain...." name="domain" id="domain" class="search__input">
                 <div class="search__button" id="search-button">
                     <i class="ri-search-2-line search__icon"></i>
@@ -26,6 +41,6 @@
                 </div>
             </form>
         </div>
-        <script src="./static/main.js"></script>
+        <!-- <script src="./static/main.js"></script> -->
     </body>
 </html>

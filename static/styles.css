@@ -1,4 +1,4 @@
-
+/* 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 :root {
@@ -7,7 +7,7 @@
   --dark-color: hsl(44, 90%, 46%);
   --title-color: hsl(222, 8%, 8%);
   --text-color-light: hsl(222, 8%, 65%);
-  --white-color: #0a0909;
+  --white-color: green;
   --body-color: hsl(222, 100%, 99%);
   --body-font: "Poppins", sans-serif;
   --small-font-size: .813rem;
@@ -30,11 +30,13 @@ body {
 }
 
 
-.container {
-  height: 100vh;
-  margin-inline: 1.5rem;
-  display: grid;
-  place-items: center;
+
+.options {
+  margin-top: 10px;
+}
+
+.options label {
+  margin-right: 10px;
 }
 
 .search {
@@ -126,4 +128,4 @@ body {
   .show-search {
     width: 450px;
   }
-}
+} */
